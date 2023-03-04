@@ -1,17 +1,71 @@
+header {
+    border: 3px #272727 solid;
+}
+
+#argprglogo {
+    width: auto;
+    height: 40px;
+    filter: contrast(100%) brightness(110%);
+}
+
+#git {
+    border-radius: 50%;
+    border: 1px rgb(63, 63, 63) solid;
+}
+
 body    {
     background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.banner {
+#presentacion {
+    border: 3px #afafaf solid;
+}
+
+#banner {
+    width: 100%;
+    height: max-content;
     opacity: 0.9;
     filter: blur(1.5px);
 }
 
-.fotoPerfil {
-    width: 17%;
+#fotoPerfil {
+    /*atributos de tamaño*/ 
+    width: 15%;
+    height: auto;
+
+    /*atributos esteticos*/ 
+    padding: 3px;
     border-radius: 50%;
-    margin: -110px 100px;
-    border: 5px #0b0033 solid;
+    border: 3px rgba(255, 255, 255, 0.603) solid;
     filter: contrast(100%) brightness(110%);
+
+    /*atributos esteticos*/ 
+    margin-top: -12%;
+    margin-left: 7%;
+}
+
+#logounpauart {
+    /*atributos de tamaño*/
+    width: auto;
+    height: 120px;
+    
+    /*atributos esteticos*/ 
+    padding: 5px;
+    border: 3px #2e264b solid;
+    background-color: #dbdbdb;
+    filter: contrast(100%) brightness(110%);
+
+    margin-top: -4px;
+    margin-right: 10px;
+    float: right;
+}
+
+#texto-presentacion {
+    height: 150px;
+    padding: 15px 0 0 30px;
+    margin-left: 1%;
+    border: 3px #000000 solid;
+    background-color: #0000007a;
+    overflow: hidden;
 }

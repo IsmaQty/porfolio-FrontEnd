@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <!--HEAD: Metainformacion-->
   <head>
     <title>Mi Portafolio Web - FrontEnd - Base</title>
     <meta charset="UTF-8" />
@@ -14,18 +15,19 @@
 
   </head>
   
-  <body>
+  <!--CUERPO: Contenido HTML-->
+  <body class="bg-dark">
+    <!--HEADER Bootstrap: Cabezera de la página-->
     <header class="p-3 text-bg-dark">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start d-grid gap-3">
-          <p class="text-start lead me-lg-auto mb-2 justify-content-center mb-md-0">
-            GONZALEZ ESPADA, José Ismael
-          </p>
-  
+          <img src="Image/ArgProgLogo.png" class="img-fluid" id="argprglogo">
+          <h2 class="text-start me-lg-auto mb-2 justify-content-center mb-md-0">#YOPROGRAMO</h2>
+
           <div class="d-flex d-grid gap-2">
             <span class="social-icon"> <a href="https://www.linkedin.com/in/ismael-gonzalez-ow/"> <img src="Image/linkedin.png" height="35px"> </a></span>
             <span class="social-icon"> <a href="https://www.instagram.com/ismael_ow/"> <img src="Image/instagram.png" height="35px"> </a></span>
-            <span class="social-icon"> <a href="https://github.com/IsmaQty"> <img src="Image/github.png" height="35px"> </a></span>
+            <span class="social-icon"> <a href="https://github.com/IsmaQty"> <img src="Image/github.png" id="git" height="35px"> </a></span>
           </div>
 
           <div class="text-end">
@@ -33,19 +35,42 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> 
 
-    <section class="banner"> <!--width = ancho ... height = altura ... alt = descripcion en texto de la imagen-->
-      <div>
-        <img src="Image/banner.png" class="img-fluid" alt="imagen banner de fondo" width="100%"> <!--1280x703-->
-      </div>
-    </section>
+    <!--Seccion: Presentacion-->
+    <div id="presentacion" class="bg-dark">
+        <img src="Image/banner.png" class="img-fluid" alt="imagen banner de fondo" id="banner"> <!--1280x703-->
+        <img src="Image/fotoPerfil.png" class="img-fluid" id="fotoPerfil" alt="imagen foto de perfil">
+        <div id="texto-presentacion" class="text-white">
+          <img src="Image/UNPA UART logo sin fondo.png" class="img-fluid" id="logounpauart" alt="...">
+          <p>GONZALEZ ESPADA, José Ismael</p>
+          <p>JAVA AND C# Developer, junior Full stack designer y Estudiante Analista de Sistemas</p>
+          <p>Santa Cruz, ARGENTINA <a href="https://www.linkedin.com/in/ismael-gonzalez-ow/">(INFORMACION DE CONTACTO)</a> </p> 
+        </div>
+        
+        
+    </div>
+  
+    <!--Seccion: Acerca De-->
+    <div class="acercaDe">
+      <section>
 
-    <section>
-      <div>
-        <img src="Image/fotoPerfil.png" class="fotoPerfil" alt="imagen foto de perfil">
-      </div>
-    </section>
+      </section>
+    </div>
+
+    <div>
+  
+    </div>
+
+    <div>
+  
+    </div>
+    
+    
+
+    
+
+
 
     <!-- Bootstrap JS -->
     <script src="bootstrap-5.3.0-alpha1-dist/js//bootstrap.bundle.min.js"></script>
