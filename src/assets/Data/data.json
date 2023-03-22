@@ -1,0 +1,114 @@
+{
+  "header": {
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/ismael-gonzalez-ow/",
+      "instagram": "https://www.instagram.com/ismael_ow/",
+      "github": "https://github.com/IsmaQty"
+    }
+  },
+  "presentacion": {
+    "fondo": "assets/Image/banner.png",
+    "imaperfil": "assets/Image/fotoPerfil.png",
+    "imauni": "assets/Image/UNPA UART logo sin fondo.png",
+    "nombre": "GONZALEZ ESPADA, José Ismael",
+    "titulo": "Full Stack Developer Jr.",
+    "ubicacion": "Santa Cruz, ARGENTINA",
+    "informacion-contacto": "https://www.linkedin.com/in/ismael-gonzalez-ow/"
+  },
+  "acercaDe": {
+    "texto1": "JAVA AND C# Developer Jr, Full Stack Developer Jr y Estudiante Analista de Sistemas UNPA-UART",
+    "texto2": "Actualmente cuento con experiencia en: Ayudantias en Matematica 1 y 2, Programación en C.",
+    "texto3": "Ademas de 3 trabajos como alumno Becario y 2 años como Tutor de mi carrera."
+  },
+  "experiencias": [
+    {
+      "imalogo": "assets/Image/UNPA UART logo sin fondo.png",
+      "nombre": "INSTITUTO DE TECNOLOGIA APLICADA UNPA-UART",
+      "titulo": "Integrante como Alumno",
+      "duracion-ini": "Marzo 2022",
+      "duracion-fin": "actualidad",
+      "duracion-total": "1 año",
+      "ubicacion": "Rio Turbio, Santa Cruz, Argentina"
+    },
+    {
+      "imalogo": "assets/Image/UNPA UART logo sin fondo.png",
+      "nombre": "BECARIO EN PROYECTO DE EXTENSION UNIVERSITARIO",
+      "titulo": "Alumno Becario Universitario",
+      "duracion-ini": "Abril 2021",
+      "duracion-fin": "Diciembre 2021",
+      "duracion-total": "9 meses",
+      "ubicacion": "Rio Turbio, Santa Cruz, Argentina"
+    },
+    {
+      "imalogo": "assets/Image/UNPA UART logo sin fondo.png",
+      "nombre": "TUTORIAS ACADÉMICAS - ANALISTA DE SISTEMAS",
+      "titulo": "Tutor de la carrera Analista de Sistemas",
+      "duracion-ini": "Marzo 2020",
+      "duracion-fin": "Diciembre 2021",
+      "duracion-total": "1 año y 9 meses",
+      "ubicacion": "Rio Turbio, Santa Cruz, Argentina"
+    },
+    {
+      "imalogo": "assets/Image/UNPA UART logo sin fondo.png",
+      "nombre": "AYUDANTIAS UNIVERSITARIAS",
+      "titulo": "Alumno Ayudante en Álgebra, Análisis Matemático y Resolución de Problemas y Algoritmos",
+      "duracion-ini": "Marzo 2019",
+      "duracion-fin": "Diciembre 2020",
+      "duracion-total": "2 año",
+      "ubicacion": "Rio Turbio, Santa Cruz, Argentina"
+    }
+  ],
+  "educacion": [
+    {
+      "imalogo": "assets/Image/zyro-image.png",
+      "nombre": "Colegio Santa Bárbara Secundario",
+      "titulo": "Titulo de Bachiller en Humanidades y Ciencias Sociales con perfil en Investigacion Socio-Comunitaria",
+      "fecha": "Egresado 2016",
+      "promedio": "Promedio General: 9.08",
+      "ubicacion": "Rio Turbio, Santa Cruz, Argentina"
+    }
+  ],
+  "skills": [
+    {
+      "hard": [
+        {
+          "nombre": "Resolución de Problemas",
+          "porcentaje": "--value: 90"
+        },
+        {
+          "nombre": "Pensamiento lateral",
+          "porcentaje": "--value: 85"
+        },
+        {
+          "nombre": "Concentración",
+          "porcentaje": "--value: 90"
+        }
+      ],
+      "soft": [
+        {
+          "nombre": "Toma de decisiones",
+          "porcentaje": "--value: 60"
+        },
+        {
+          "nombre": "Capacidad de comunicación",
+          "porcentaje": "--value: 50"
+        },
+        {
+          "nombre": "Creatividad",
+          "porcentaje": "--value: 40"
+        }
+      ]
+    }
+  ],
+  "proyectos": [
+    {
+      "imalogo": "assets/Image/ArgProgLogo.png",
+      "nombre": "Portafolio Web - Angular",
+      "descripcion": "Desarrollo de un portafolio web usando diversas herramientas como HTML 5, CSS, Boostrap, Angular, JS",
+      "fechaRealizacion": "Agosto 2022 - Abril 2023",
+      "link": "#",
+      "github": "https://github.com/IsmaQty/porfolio-FrontEnd"
+    }
+  ],
+  "footer": {}
+}

@@ -1,0 +1,10 @@
+.argprglogo {
+    width: auto;
+    height: 2em;
+    filter: contrast(100%) brightness(110%);
+}
+
+.git {
+    border-radius: 50%;
+    border: 1px rgb(63, 63, 63) solid;
+}

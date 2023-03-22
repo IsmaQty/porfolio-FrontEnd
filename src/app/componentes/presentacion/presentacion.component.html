@@ -1,0 +1,20 @@
+<div id="presentacion" *ngIf='miPorfolio'>
+  <img [src]="miPorfolio['fondo']" class="img-fluid" alt="imagen banner de fondo" class="banner"> <!--1280x703-->
+  <img [src]="miPorfolio['imaperfil']" class="img-fluid" class="fotoPerfil" alt="imagen foto de perfil">
+
+  <!--Seccion del texto de presentacion: nombre, titulo, ciudad-->
+  <div class="texto-presentacion">
+    <img [src]="miPorfolio['imauni']" class="img-fluid" class="logounpauart" alt="...">
+    <p>{{miPorfolio['nombre']}} </p>
+    <p>{{miPorfolio['titulo']}}</p>
+    <p>{{miPorfolio['ubicacion']}}<a [href]="miPorfolio['informacion-contacto']"> (INFORMACION DE CONTACTO)</a>
+    </p>
+  </div>
+
+  <!--Botones CRUD (sin funcionalidad todavia)-->
+  <div class="botones-presentacion">
+    <button type="button" class="btn btn-primary me-2">Tengo interes en</button>
+    <button type="button" class="btn btn-outline-light me-2" disabled>Añadir seccion</button>
+    <button type="button" class="btn btn-outline-light me-2" disabled>Mas</button>
+  </div>
+</div>

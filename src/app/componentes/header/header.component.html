@@ -1,0 +1,27 @@
+<header class="p-3 text-bg-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start d-grid gap-3">
+            <!--Parte Izquierda: logo y titulo-->
+            <img src="assets/Image/ArgProgLogo.png" class="img-fluid" class="argprglogo">
+            <h2 class="text-start me-lg-auto mb-2 justify-content-center mb-md-0">#YOPROGRAMO</h2>
+
+            <!--<span *ngIf='miPorfolio'>{{ miPorfolio.links.linkedin }}</span>-->
+            <!--<span> <a [href]="miPorfolio['links']['linkedin']" > </a></span>-->
+            
+            <!--Parte Derecha: social bar-->
+            <div class="d-flex d-grid gap-2" *ngIf='miPorfolio'>
+                <span class="social-icon"> <a [href]="miPorfolio['links']['linkedin']" >
+                    <img src="assets/Image/linkedin.png" height="35px"> </a></span> 
+                <span class="social-icon"> <a [href]="miPorfolio['links']['instagram']">
+                    <img src="assets/Image/instagram.png" height="35px"> </a></span>
+                <span class="social-icon"> <a [href]="miPorfolio['links']['github']">
+                    <img src="assets/Image/github.png" class="git" height="35px"> </a></span>
+            </div>
+
+            <!--Boton de Login / Logout-->
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+            </div>
+        </div>
+    </div>
+</header>

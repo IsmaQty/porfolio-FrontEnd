@@ -1,0 +1,12 @@
+.logounpa {
+    /*atributos de tamaño*/
+    width: auto;
+    height: 120px;
+
+    /*atributos esteticos*/
+    padding: 5px;
+    border: 2px #2e264b solid;
+    border-radius: 20%;
+    background-color: #dbdbdb;
+    filter: contrast(100%) brightness(110%);
+}

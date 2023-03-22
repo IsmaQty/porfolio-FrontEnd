@@ -1,0 +1,21 @@
+<div class="contenedor p-3 text-black">
+  <!--Titulo de la seccion-->
+  <h2 style="padding-bottom: 10px">Experiencias</h2>
+  <!--Lista de las distintas experencias-->
+  <!--Cada item contiene: una imagen, un titulo, un cargo/actividad, duracion, ubicacion (se puede agregar una descripcion)-->
+  <ul style="list-style: none" *ngFor="let experiencias of experienciaList">
+    <li style="padding-bottom: 20px">
+      <div class="hstack gap-3">
+        <img [src]="experiencias['imalogo']" class="logounpa img-fluid" alt="imagen foto de perfil">
+        <div>
+          <h4>{{experiencias['nombre']}} </h4>
+          <div>
+            <p class="texto-secciones">{{experiencias['titulo']}} </p>
+            <p class="texto-secciones">{{experiencias['duracion-ini']}} - {{experiencias['duracion-fin']}} - {{experiencias['duracion-total']}}</p>
+            <p class="texto-secciones">{{experiencias['ubicacion']}}</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

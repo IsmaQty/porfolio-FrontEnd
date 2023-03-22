@@ -1,0 +1,33 @@
+<div class="contenedor p-3 text-black">
+    <!--Titulo de la seccion-->
+    <h2>Skills</h2>
+    <!--Habilidades Fuertes-->
+    <div class="contenedor">
+        <h3 style="margin: 15px 0px 30px 15px;">Hard Skills</h3>
+        <div class="contenedor-skills">
+            <ul style="list-style: none;" *ngFor="let hard of skillHardList">
+                <li>
+                    <div class="contenedor-sub-skills">
+                        <div class="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" [style]="hard['porcentaje']"></div>
+                        <h2>{{hard['nombre']}}</h2>
+                    </div>
+                </li>
+            </ul>
+        </div >
+    </div>
+    
+    <!--Habilidades Debiles-->
+    <div class="contenedor">
+        <h3 style="margin: 15px 0px 30px 15px;">Soft Skills</h3>
+        <div class="contenedor-skills">
+            <ul style="list-style: none;" *ngFor="let soft of skillSoftList">
+                <li>
+                    <div class="contenedor-sub-skills">
+                        <div class="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" [style]="soft['porcentaje']"></div>
+                        <h2>{{soft['nombre']}}</h2>
+                    </div>
+                </li>
+            </ul>
+        </div >
+    </div>
+</div>

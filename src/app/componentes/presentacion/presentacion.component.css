@@ -1,0 +1,61 @@
+#presentacion {
+    border-radius: 6px;
+    border: 3px #afafaf solid;
+}
+
+.banner {
+    width: 100%;
+    height: max-content;
+    opacity: 0.9;
+    filter: blur(1.5px);
+}
+
+.fotoPerfil {
+    /*atributos de tamaño*/
+    width: 15%;
+    height: auto;
+
+    /*atributos esteticos*/
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px rgba(255, 255, 255, 0.603) solid;
+    filter: contrast(100%) brightness(110%);
+
+    /*atributos esteticos*/
+    margin-top: -12%;
+    margin-left: 7%;
+}
+
+.logounpauart {
+    /*atributos de tamaño*/
+    width: auto;
+    height: 120px;
+
+    /*atributos esteticos*/
+    padding: 5px;
+    border: 3px #2e264b solid;
+    background-color: #dbdbdb;
+    filter: contrast(100%) brightness(110%);
+
+    margin-top: -4px;
+    margin-right: 10px;
+    float: right;
+}
+
+.texto-presentacion {
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    font-family: cursive;
+    height: 150px;
+    padding: 15px 0 0 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 3px #000000 solid;
+    background-color: #0000007a;
+    overflow: hidden;
+}
+
+.botones-presentacion {
+    margin: 10px 0 10px 15px;
+}

@@ -1,0 +1,23 @@
+<div class="contenedor p-3 text-black">
+    <!--Titulo de la seccion-->
+    <h2>Proyectos</h2>
+
+    <!--Lista de todos los proyectos en los que participe/desarrolle-->
+    <!--Cada item tiene un nombre, una imagen(opcional), una fecha/duracion, una descripcion, y un link al proyecto-->
+    <ul style="list-style: none" *ngFor="let proyecto of miPorfolio">
+        <li style="padding-bottom: 20px">
+            <div class="hstack gap-3">
+                <img [src]="proyecto['imalogo']" class="logo img-fluid" alt="imagen del proyecto">
+                <div>
+                    <h4>{{proyecto['nombre']}}</h4>
+                    <div>
+                        <p class="texto-secciones">{{proyecto['descripcion']}}</p>
+                        <p class="texto-secciones">{{proyecto['fechaRealizacion']}}</p>
+                        <p class="texto-secciones"><a [href]="proyecto['link']" >Version Web del Proyecto</a></p>
+                        <p class="texto-secciones"><a [href]="proyecto['github']" >Proyecto en Github</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

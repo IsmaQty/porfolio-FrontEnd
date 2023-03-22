@@ -1,0 +1,21 @@
+<div class="contenedor p-3 text-black">
+    <!--Titulo de la seccion-->
+    <h2 style="padding-bottom: 10px">Educación</h2>
+    <!--Lista de la educacion secundaria y universitaria realizada (solo tengo secu, por ahora)-->
+    <ul style="list-style: none" *ngFor="let educacion of educacionList">
+        <li style="padding-bottom: 20px">
+            <div class="hstack gap-3">
+                <img [src]="educacion['imalogo']" class="img-fluid" class="logocsb" alt="imagen foto de perfil">
+                <div>
+                    <h4>{{educacion['nombre']}}</h4>
+                    <div>
+                        <p class="texto-secciones">{{educacion['titulo']}}</p>
+                        <p class="texto-secciones">{{educacion['fecha']}}</p>
+                        <p class="texto-secciones">{{educacion['promedio']}}</p>
+                        <p class="texto-secciones">{{educacion['ubicacion']}}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
