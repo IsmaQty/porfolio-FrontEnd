@@ -72,30 +72,39 @@
     {
       "hard": [
         {
-          "nombre": "Resolución de Problemas",
+          "nombre": "JAVA",
+          "porcentaje":"--value: 95"
+        },
+        {
+          "nombre": "GITHUB",
           "porcentaje": "--value: 90"
         },
         {
-          "nombre": "Pensamiento lateral",
+          
+          "nombre": "MYSQL",
           "porcentaje": "--value: 85"
         },
         {
-          "nombre": "Concentración",
-          "porcentaje": "--value: 90"
+          "nombre": "Angular, HTML y CSS",
+          "porcentaje": "--value: 80"
         }
       ],
       "soft": [
         {
-          "nombre": "Toma de decisiones",
-          "porcentaje": "--value: 60"
+          "nombre": "Resolución de Problemas",
+          "porcentaje": "--value: 90"
         },
         {
-          "nombre": "Capacidad de comunicación",
-          "porcentaje": "--value: 50"
+          "nombre": "Pensamiento Crítico",
+          "porcentaje": "--value: 85"
         },
         {
-          "nombre": "Creatividad",
-          "porcentaje": "--value: 40"
+          "nombre": "Paciencia",
+          "porcentaje": "--value: 95"
+        },
+        {
+          "nombre": "Estructurado",
+          "porcentaje":"--value: 80"
         }
       ]
     }

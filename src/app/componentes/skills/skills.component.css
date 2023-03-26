@@ -26,9 +26,9 @@
   
 .progressbar{
     --percentage: var(--value);
-    --primary: rgb(114, 35, 124);
-    --secondary: rgb(102, 102, 102);
-    --size: 230px;
+    --primary: rgb(102, 255, 102);
+    --secondary: rgb(168, 168, 168);
+    --size: 220px;
     animation: progress 2s 0.5s forwards;
     width: var(--size);
     aspect-ratio: 2 / 1;
@@ -41,6 +41,7 @@
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    filter: contrast(100%) brightness(85%);
 }
 .progressbar::before {
     content: "";
