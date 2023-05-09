@@ -1,10 +1,15 @@
 #acercaDe {
     padding: 15px 0 10px 30px;
-    margin: 1%;
+    margin: 1% 15% 1% 15%;
+    width: 70%;
     border-radius: 6px;
     border: 3px #000000 solid;
     background-color: aliceblue;
     font-size: small;
     text-transform: uppercase;
     font-family: monospace;
+}
+
+.contenedor-secciones{
+    width: 70%;
 }
